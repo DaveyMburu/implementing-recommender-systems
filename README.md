@@ -13,7 +13,9 @@ In this lab you will:
 - Use surprise's built-in reader class to process data to work with recommender algorithms 
 - Obtain a prediction for a specific user for a particular item 
 - Introduce a new user with rating to a rating matrix and make recommendations for them 
-- Create a function that will return the top n recommendations for a user 
+- Create a function that will return the top n recommendations for a user
+
+# Check the index.ipynb file for my working
 
 
 For this lab, we will be using the famous 1M movie dataset. It contains a collection of user ratings for many different movies. In the last lesson, you were exposed to working with `surprise` datasets. In this lab, you will also go through the process of reading in a dataset into the `surprise` dataset format. To begin with, load the dataset into a Pandas DataFrame. Determine which columns are necessary for your recommendation system and drop any extraneous ones.
